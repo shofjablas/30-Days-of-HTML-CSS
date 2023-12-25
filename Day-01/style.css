@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+/* #18181b - NavBar Background Color */
+
+/* #a1a1aa - Text Color */
+
+/* Get Started Button Bg color - #5046e5 */
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: #18181b;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #a1a1aa;
+}
+
+li {
+  list-style-type: none;
+  align-items: center;
+}
+
+.navBarMenu {
+  display: flex;
+  align-items: center;
+  color: #a1a1aa;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.codedamnLogo {
+  margin-left: 10px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navBarIcons {
+  display: flex;
+  align-items: center;
+  color: #a1a1aa;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #5045e5;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  padding: 4px 10px 0px;
+  align-items: center;
+}
