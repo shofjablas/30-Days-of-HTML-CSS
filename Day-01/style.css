@@ -46,6 +46,16 @@ li {
   margin-right: 20px;
 }
 
+.material-symbols-outlined {
+  display: flex;
+  align-items: center;
+}
+
+.navBarMenu li {
+  display: flex;
+  align-items: center;
+}
+
 .codedamnLogo {
   margin-left: 10px;
   margin-right: auto;
